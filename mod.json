@@ -8,7 +8,7 @@
             "ide": "cool_die_001",
             "rarity": 1,
             "prio": 5,
-            "sprite": "sprites/cool_die.png",
+            "sprite": "cool_die.png",
             "faces": [
                 {"value": 1},
                 {"value": 2},
@@ -20,9 +20,9 @@
             "faces_desc": "[spr_dice_icon,0] 1/2/3/4/5/6",
             "tag": ["faces_even"],
             "kw": ["face"],
-            "effect": { "type": "mult_all", "value": 2 },
+            "effect": { "type": "mult_all", "value": 0.5 },
             "title": "Cool Die",
-            "description": "A basic d6 that multiplies all dice by 2."
+            "description": "A basic d6 that multiplies all dice by 0.5."
         }
     ],
     "rings": []
